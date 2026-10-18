@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+.venv/
+venv/
+env/
+
+# Python Caches & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Hardware Simulation & Synthesis Artifacts (Icarus Verilog, GTKWave, Yosys)
+*.vvp
+*.vcd
+*.fst
+*.gtkw
+*.ys.log
+*.json.synth
+*.blif
+*.edif
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

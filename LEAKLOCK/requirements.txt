@@ -1,0 +1,12 @@
+# LEAKLOCK — Python Dependencies
+# Requires Python 3.10 or later.
+# All packages use the Python standard library except streamlit and pytest.
+#
+# Install:   pip install -r requirements.txt
+# Tested on: Python 3.12.10 (Windows 11), Python 3.12.x (Rocky Linux 10.x)
+
+# Web UI (brings in numpy, pandas, pillow, pydeck, etc. as transitive deps)
+streamlit>=1.38.0,<2.0.0
+
+# Test runner
+pytest>=8.0.0,<10.0.0
